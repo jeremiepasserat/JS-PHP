@@ -10,7 +10,7 @@ $result->message = "";
 
 //$result->connecte = false;
 
-if (isset($_SESSION['connecte']) && $_SESSION['connecte'] == 'ok')
+if ((isset($_SESSION['connecte'])) && ($_SESSION['connecte'] == 'ok'))
 {
     $result->resultat = true;
 }
